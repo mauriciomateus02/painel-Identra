@@ -1,0 +1,59 @@
+# compiled output
+/identra-api/dist
+/identra-api/node_modules
+/identra-api/build
+
+# TypeScript build cache
+/identra-api/*.tsbuildinfo
+
+# Logs
+/identra-api/logs
+/identra-api/*.log
+/identra-api/npm-debug.log*
+/identra-api/pnpm-debug.log*
+/identra-api/yarn-debug.log*
+/identra-api/yarn-error.log*
+/identra-api/lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+/identra-api/.env
+/identra-api/.env.development.local
+/identra-api/.env.test.local
+/identra-api/.env.production.local
+/identra-api/.env.local
+
+# temp directory
+.temp
+.tmp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
