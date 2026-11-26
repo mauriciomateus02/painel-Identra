@@ -1,4 +1,7 @@
 # compiled output
+node_modules
+dist
+build
 /identra-api/dist
 /identra-api/node_modules
 /identra-api/build
@@ -39,6 +42,8 @@
 !.vscode/extensions.json
 
 # dotenv environment variable files
+.env
+.env.local
 /identra-api/.env
 /identra-api/.env.development.local
 /identra-api/.env.test.local
